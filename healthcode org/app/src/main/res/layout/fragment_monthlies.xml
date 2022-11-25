@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MonthliesFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/llMonthlies"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/img_3">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monthlies"
+                android:textSize="45sp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@id/llMonthlies">
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hi,Snigdha Thakur"
+                android:textSize="30sp"
+                android:layout_marginBottom="35sp"
+                android:textAlignment="center"
+                android:textColor="#3EE1A6"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your start date"
+                android:textSize="25sp"
+                android:textAlignment="center"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginTop="7sp"
+                android:textColor="@color/dark_green"
+                android:textColorHint="@color/dark_green"
+                app:boxStrokeColor="@color/dark_green"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/dark_green"
+                app:startIconTint="@color/dark_green"
+
+                app:hintTextColor="@color/dark_green">
+                <EditText
+                    android:id="@+id/startDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="20sp"
+                    android:imeOptions="actionGo"
+                    android:cursorVisible="true"
+                    android:inputType="textEmailAddress"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your expected date"
+                android:textSize="25sp"
+                android:textAlignment="center"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginTop="7sp"
+                android:textColor="@color/dark_green"
+                android:textColorHint="@color/dark_green"
+                app:endIconTint="@color/dark_green"
+                app:boxStrokeColor="@color/dark_green"
+                app:startIconTint="@color/dark_green"
+
+                app:hintTextColor="@color/dark_green">
+
+                <EditText
+                    android:id="@+id/expectedDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>
+
+
+
+
+
+
