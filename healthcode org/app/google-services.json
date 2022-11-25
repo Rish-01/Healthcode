@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "169906782815",
+    "project_id": "health-code-5838e",
+    "storage_bucket": "health-code-5838e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169906782815:android:ad4ba69f37aadf06e0d1ea",
+        "android_client_info": {
+          "package_name": "com.example.healthcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169906782815-qdvjur2o01fvte86ilutr91do8ni9ajo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeutYjT36L7dWYtmAhTKwsdQ2aBqkJSmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169906782815-qdvjur2o01fvte86ilutr91do8ni9ajo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
